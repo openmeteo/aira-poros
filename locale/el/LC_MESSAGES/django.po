@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-10 16:03+0200\n"
+"POT-Creation-Date: 2021-01-04 18:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: aira/base/main.html:19
+msgid "Region of Epirus"
+msgstr "Περιφερεια Ηπειρου"
+
+#: aira/base/main.html:22
+msgid ""
+"This web application aims to support the application of good agricultural "
+"practices regarding irrigation water use and has been developed using as "
+"base the open software which is freely available as a deliverable of the "
+"project ETCP GR-IT 2007-2013 IRMA, and uses meteorological data freely "
+"available through openmeteo.org."
+msgstr ""
+"Η εφαρμογή αυτή στοχεύει στην υποστήριξη της εφαρμογής καλών αρδευτικών "
+"πρακτικών όσο αφορά το νερό άρδευσης και έχει αναπτυχθεί χρησιμοποιώντας ως "
+"βάση το ανοικτό λογισμικό που διατίθεται ελεύθερα ως παραδοτέο του έργου ETCP "
+"GR-IT 2007-2013 IRMA ενώ αξιοποιεί μετεωρολογικά δεδομένα που διατίθενται "
+"ελεύθερα μέσω της πλατφόρμας openmeteo.org."
+
+#: aira/base/main.html:41
+msgid "Terms of use"
+msgstr "Όροι χρήσης"
 
 #: aira/base/navbar.html:6
 msgid "PARTICIPATORY SYSTEM FOR IRRIGATION RECOMMENDATIONS (PLAIN OF POROS)"
