@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-04 18:26+0200\n"
+"POT-Creation-Date: 2021-01-08 12:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,9 +32,9 @@ msgid ""
 msgstr ""
 "Η εφαρμογή αυτή στοχεύει στην υποστήριξη της εφαρμογής καλών αρδευτικών "
 "πρακτικών όσο αφορά το νερό άρδευσης και έχει αναπτυχθεί χρησιμοποιώντας ως "
-"βάση το ανοικτό λογισμικό που διατίθεται ελεύθερα ως παραδοτέο του έργου ETCP "
-"GR-IT 2007-2013 IRMA ενώ αξιοποιεί μετεωρολογικά δεδομένα που διατίθενται "
-"ελεύθερα μέσω της πλατφόρμας openmeteo.org."
+"βάση το ανοικτό λογισμικό που διατίθεται ελεύθερα ως παραδοτέο του έργου "
+"ETCP GR-IT 2007-2013 IRMA ενώ αξιοποιεί μετεωρολογικά δεδομένα που "
+"διατίθενται ελεύθερα μέσω της πλατφόρμας openmeteo.org."
 
 #: aira/base/main.html:41
 msgid "Terms of use"
@@ -43,3 +43,15 @@ msgstr "Όροι χρήσης"
 #: aira/base/navbar.html:6
 msgid "PARTICIPATORY SYSTEM FOR IRRIGATION RECOMMENDATIONS (PLAIN OF POROS)"
 msgstr "ΣΥΛΛΟΓΙΚΟ ΣΥΣΤΗΜΑ ΠΑΡΟΧΗΣ ΣΥΜΒΟΥΛΩΝ ΑΡΔΕΥΣΗΣ ΓΙΑ ΤΗΝ ΠΕΔΙΑΔΑ ΤΟΥ ΠΟΡΟΥ"
+
+#: aira/frontpage/main.html:14
+msgid "Agrometeorological stations network"
+msgstr "Δίκτυο αγρομετεωρολογικών σταθμών"
+
+#: aira/frontpage/main.html:17
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: aira/frontpage/main.html:20
+msgid "Weather forecast (agromonitoring)"
+msgstr "Πρόβλεψη καιρού (agromonitoring)"

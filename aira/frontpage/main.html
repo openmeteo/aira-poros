@@ -1,6 +1,23 @@
 {% extends 'aira/frontpage/main-default.html' %}
+{% load i18n %}
+
 
 {% block main_page %}
   {% include "aira/frontpage/carousel.html" %}
   {{ block.super }}
+{% endblock %}
+
+
+{% block map_footer %}
+  <div class="row">
+    <div class="col-sm-4 text-left">
+      <a class="btn btn-success btn-sm" target="_blank" href="http://addvantage.interregir2ma.eu:8080/livedata/mapOrList.jsf">{% trans "Agrometeorological stations network" %}</a>
+    </div>
+    <div class="col-sm-4 text-center">
+      <a class="btn btn-success btn-sm" target="_blank" href="https://system.irrigation-management.eu/">{% trans "Data" %}</a>
+    </div>
+    <div class="col-sm-4 text-right">
+      <a class="btn btn-success btn-sm" target="_blank" href="https://agromonitoring.com/">{% trans "Weather forecast (agromonitoring)" %}</a>
+    </div>
+  </div>
 {% endblock %}
