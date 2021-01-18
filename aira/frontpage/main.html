@@ -1,4 +1,5 @@
 {% extends 'aira/frontpage/main-default.html' %}
+{% load static %}
 {% load i18n %}
 
 
@@ -20,4 +21,13 @@
       <a class="btn btn-success btn-sm" target="_blank" href="https://agromonitoring.com/">{% trans "Weather forecast (agromonitoring)" %}</a>
     </div>
   </div>
+{% endblock %}
+
+
+{% block extrajs %}
+  {{ block.super }}
+  <script type="text/javascript">
+    aira.strings.irrigation_network = "{% trans 'Irrigation network' %}";
+  </script>
+  <script type="text/javascript" src="{% static 'js/aira_poros.js' %}"></script>
 {% endblock %}

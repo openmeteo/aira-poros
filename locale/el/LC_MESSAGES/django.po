@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-11 12:10+0200\n"
+"POT-Creation-Date: 2021-01-18 18:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,10 @@ msgid ""
 "          <p>Diastavrosi Vasilikis-Drosochoriou<br>45500 "
 "Drosochori<br>Ioannina</p>\n"
 "        "
-msgstr "\n<p>ΤΟΕΒ Πόρου<br>Διασταύρωση Βασιλικής-Δροσοχωρίου<br>45500 Δροσοχώρι<br>Ιωάννινα</p>"
+msgstr ""
+"\n"
+"<p>ΤΟΕΒ Πόρου<br>Διασταύρωση Βασιλικής-Δροσοχωρίου<br>45500 "
+"Δροσοχώρι<br>Ιωάννινα</p>"
 
 #: aira/base/main.html:43
 msgid "Terms of use"
@@ -54,14 +57,18 @@ msgstr ""
 "ΣΥΛΛΟΓΙΚΟ ΣΥΣΤΗΜΑ ΠΑΡΟΧΗΣ ΣΥΜΒΟΥΛΩΝ ΑΡΔΕΥΣΗΣ ΓΙΑ ΤΟΝ ΤΟΕΒ ΠΟΡΟΥ (ΓΟΕΒ "
 "ΛΕΚΑΝΗΣ ΙΩΑΝΝΙΝΩΝ)"
 
-#: aira/frontpage/main.html:14
+#: aira/frontpage/main.html:15
 msgid "Agrometeorological stations network"
 msgstr "Δίκτυο αγρομετεωρολογικών σταθμών"
 
-#: aira/frontpage/main.html:17
+#: aira/frontpage/main.html:18
 msgid "Data"
 msgstr "Δεδομένα"
 
-#: aira/frontpage/main.html:20
+#: aira/frontpage/main.html:21
 msgid "Weather forecast (agromonitoring)"
 msgstr "Πρόβλεψη καιρού (agromonitoring)"
+
+#: aira/frontpage/main.html:30
+msgid "Irrigation network"
+msgstr "Αρδευτικό δίκτυο"
