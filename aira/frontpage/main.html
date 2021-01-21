@@ -28,6 +28,8 @@
   {{ block.super }}
   <script type="text/javascript">
     aira.strings.irrigation_network = "{% trans 'Irrigation network' %}";
+    aira.strings.drainage_network = "{% trans 'Drainage network' %}";
+    aira.mapserverExtraLayersBaseUrl = "/cgi-bin/mapserv?map=/etc/opt/aira/poros/skin/mapserver/extralayers.map";
   </script>
   <script type="text/javascript" src="{% static 'js/aira_poros.js' %}"></script>
 {% endblock %}
