@@ -1,8 +1,8 @@
-const originalInitialize = aira.meteoMapPanel.initialize;
+const originalCreate = aira.map.create;
 
-Object.assign(aira.meteoMapPanel, {
-  initialize() {
-    originalInitialize.bind(this)();
+const newmethods = {
+  create() {
+    originalCreate.bind(this)();
     this.addStaticLayers();
   },
 
@@ -17,6 +17,10 @@ Object.assign(aira.meteoMapPanel, {
       format: 'image/png',
       transparent: true,
     });
-    aira.map.layerSwitcher.addOverlay(newLayer, label);
+    this.layerSwitcher.addOverlay(newLayer, label);
   },
-});
+};
+
+Object.assign(aira.map, newmethods);
+Object.assign(aira.agrifieldsMap, newmethods);
+Object.assign(aira.agrifieldEditMap, newmethods);

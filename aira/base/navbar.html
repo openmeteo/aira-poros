@@ -1,7 +1,8 @@
 {% extends "aira/base/navbar-default.html" %}
+{% load static %}
 {% load i18n %}
 
 
 {% block navbar_brand %}
-  <a href="/" class="navbar-brand" style="white-space: normal; min-height: 60px; width: 28em; font-size: 10pt; padding-top: 10px; padding-bottom: 10px; color: black">{% trans "PARTICIPATORY SYSTEM FOR IRRIGATION RECOMMENDATIONS (PLAIN OF POROS, IOANNINA)" %}</a>
+<a href="{% url 'frontpage' %}" class="navbar-brand" style="white-space: normal; min-height: 60px; width: 28em; font-size: 10pt; padding-top: 10px; padding-bottom: 10px; color: black"><img src="{% static 'img/IRMA_SYSLogo.png' %}" title="{% trans 'PLAIN OF POROS, IOANNINA' %}" %}" width="210"></a>
 {% endblock %}

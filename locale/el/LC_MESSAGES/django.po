@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 13:54+0200\n"
+"POT-Creation-Date: 2021-02-08 15:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,13 +49,17 @@ msgstr ""
 msgid "Terms of use"
 msgstr "Όροι χρήσης"
 
-#: aira/base/navbar.html:6
-msgid ""
-"PARTICIPATORY SYSTEM FOR IRRIGATION RECOMMENDATIONS (PLAIN OF POROS, "
-"IOANNINA)"
-msgstr ""
-"ΣΥΛΛΟΓΙΚΟ ΣΥΣΤΗΜΑ ΠΑΡΟΧΗΣ ΣΥΜΒΟΥΛΩΝ ΑΡΔΕΥΣΗΣ ΓΙΑ ΤΟΝ ΤΟΕΒ ΠΟΡΟΥ (ΓΟΕΒ "
-"ΛΕΚΑΝΗΣ ΙΩΑΝΝΙΝΩΝ)"
+#: aira/base/main.html:54
+msgid "Irrigation network"
+msgstr "Αρδευτικό δίκτυο"
+
+#: aira/base/main.html:55
+msgid "Drainage network"
+msgstr "Στραγγιστικό δίκτυο"
+
+#: aira/base/navbar.html:7
+msgid "PLAIN OF POROS, IOANNINA"
+msgstr "ΤΟΕΒ Πόρου (ΓΟΕΒ Λεκάνης Ιωαννίνων)"
 
 #: aira/frontpage/main.html:15
 msgid "Agrometeorological stations network"
@@ -68,11 +72,3 @@ msgstr "Δεδομένα"
 #: aira/frontpage/main.html:21
 msgid "Weather forecast (agromonitoring)"
 msgstr "Πρόβλεψη καιρού (agromonitoring)"
-
-#: aira/frontpage/main.html:30
-msgid "Irrigation network"
-msgstr "Αρδευτικό δίκτυο"
-
-#: aira/frontpage/main.html:31
-msgid "Drainage network"
-msgstr "Στραγγιστικό δίκτυο"

@@ -3,7 +3,7 @@
 {% load i18n %}
 
 {% block favicon %}
-  <link rel="shortcut icon" type="image/png" href="{% static 'img/poros-favicon.png' %}" />
+  <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon-irmasys.png' %}" />
 {% endblock %}
 
 
@@ -45,4 +45,15 @@
       </div>
     </div>
   </div>
+{% endblock %}
+
+
+{% block mainjs %}
+  {{ block.super }}
+  <script type="text/javascript">
+    aira.strings.irrigation_network = "{% trans 'Irrigation network' %}";
+    aira.strings.drainage_network = "{% trans 'Drainage network' %}";
+    aira.mapserverExtraLayersBaseUrl = "/cgi-bin/mapserv?map=/etc/opt/aira/poros/skin/mapserver/extralayers.map";
+  </script>
+  <script type="text/javascript" src="{% static 'js/aira_poros.js' %}"></script>
 {% endblock %}
